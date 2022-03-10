@@ -31,4 +31,4 @@ $ucs['serveraddr'] = 'http://localhost/ucs2'; // UCS server address. NO TRAILING
 $ucs['serverversion'] = 2; // UCS server version
 $node['id'] = 'slims-node'; // node ID
 $node['password'] = '2325f677e21c1613909c953eb03c57352259cc5d'; // default is s0beautifulday
-$node['name'] = 'SLiMS Library'; // node name
+$node['name'] = 'Narc Library'; // node name

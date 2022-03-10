@@ -62,10 +62,10 @@ if ((bool) ini_get('safe_mode')) {
 
 // set default timezone
 // for a list of timezone, please see PHP Manual at "List of Supported Timezones" section
-@date_default_timezone_set('Asia/Jakarta');
+@date_default_timezone_set('Africa/Lagos');
 
 // senayan version
-define('SENAYAN_VERSION', 'SLiMS 9 (Bulian)');
+define('SENAYAN_VERSION', 'NARC Library');
 define('SENAYAN_VERSION_TAG', 'v9.4.2');
 
 // senayan session cookies name
@@ -361,9 +361,9 @@ $sysconf['reserve_direct_database'] = true;
 $sysconf['reserve_on_loan_only'] = false;
 
 /* CONTENT */
-$sysconf['library_name'] = 'Senayan';
-$sysconf['library_subname'] = 'Open Source Library Management System';
-$sysconf['page_footer'] = ' Senayan Library Management System (SLiMS). Released Under GNU GPL License.<br>Made with love by SLiMS Developer Community';
+$sysconf['library_name'] = 'NARC Library';
+$sysconf['library_subname'] = 'NARC Library Management System';
+$sysconf['page_footer'] = ' NARC Library Management System (NLMS). Developed By Nasiru';
 
 /* HTTPS Setting */
 $sysconf['https_enable'] = false;
@@ -392,7 +392,7 @@ $sysconf['ucs']['id'] = 'slims-node';
 // default is s0beautifulday
 $sysconf['ucs']['password'] = '2325f677e21c1613909c953eb03c57352259cc5d';
 // node name
-$sysconf['ucs']['name'] = 'SLiMS Library';
+$sysconf['ucs']['name'] = 'NARC Library';
 
 /**
  * Z39.50 copy cataloguing sources
@@ -410,7 +410,7 @@ $sysconf['marc_SRU_source'][1] = array('uri' => 'http://opac.perpusnas.go.id/sru
 /**
  * Peer to peer server config
  */
-$sysconf['p2pserver'][1] = array('uri' => 'http://127.0.0.1/slims9_bulian', 'name' => 'SLiMS Library');
+$sysconf['p2pserver'][1] = array('uri' => 'http://127.0.0.1/narc-library', 'name' => 'library.narc.com');
 
 /**
  * User and member login method

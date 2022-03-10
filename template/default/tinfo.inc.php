@@ -21,14 +21,13 @@ $sysconf['template']['classic_suggestion'] = 1;
 $sysconf['template']['classic_map'] = 1;
 $sysconf['template']['classic_map_link'] = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.288723306273!2d106.80038831428296!3d-6.225610995493402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f14efd9abf05%3A0x1659580cc6981749!2sPerpustakaan+Kemendikbud!5e0!3m2!1sid!2sid!4v1516601731218';
 $sysconf['template']['classic_map_desc'] = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et nunc mi. Donec vehicula turpis a quam venenatis posuere. Aliquam nibh lectus, gravida et leo sit amet, dignissim dapibus mauris.<br>Telp. (021) 9172638<br>Fax. (021) 9172638<br>';
-$sysconf['template']['classic_fb_link'] = 'https://www.facebook.com/groups/senayan.slims';
-$sysconf['template']['classic_twitter_link'] = 'https://twitter.com/slims_official';
+$sysconf['template']['classic_fb_link'] = 'https://www.facebook.com/groups/';
+$sysconf['template']['classic_twitter_link'] = 'https://twitter.com/';
 $sysconf['template']['classic_youtube_link'] = 'https://youtube.com';
-$sysconf['template']['classic_instagram_link'] = 'https://instagram.com/slims.sdc';
+$sysconf['template']['classic_instagram_link'] = 'https://instagram.com/';
 $sysconf['template']['visitor_log_voice'] = 1;
 $sysconf['template']['classic_footer_about_us'] = <<<HTML
-<p>As a complete Library Management System, SLiMS (Senayan Library Management System) has many features that will help libraries and librarians to do their job easily 
-and quickly. Follow <a target="_blank" href="https://slims.web.id/web/pages/about/">this link</a> to show some features provided by SLiMS.</p>
+<p>As a complete Library Management System, NARC Library has many features that will help libraries and librarians to do their job easily and quickly.</p>
 HTML;
 
 
@@ -168,7 +167,7 @@ $sysconf['template']['option'][$sysconf['template']['theme']] = [
         'dbfield' => 'classic_map_desc',
         'label' => __('Map Description'),
         'type' => 'longtext',
-        'default' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et nunc mi. Donec vehicula turpis a quam venenatis posuere. Aliquam nibh lectus, gravida et leo sit amet, dignissim dapibus mauris.<br>Telp. (021) 9172638<br>Fax. (021) 9172638<br>',
+        'default' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et nunc mi. Donec vehicula turpis a quam venenatis posuere. Aliquam nibh lectus, gravida et leo sit amet, dignissim dapibus mauris.<br>Telp. (+234) 8142777129<br>Fax. (+234) 8142777129<br>',
         'width' => '100',
         'class' => 'ckeditor',
         'max' => 1000
@@ -177,7 +176,7 @@ $sysconf['template']['option'][$sysconf['template']['theme']] = [
         'dbfield' => 'classic_fb_link',
         'label' => __('Facebook URL'),
         'type' => 'longtext',
-        'default' => 'https://www.facebook.com/groups/senayan.slims',
+        'default' => 'https://www.facebook.com/groups/',
         'width' => '100',
         'max' => 1000
     ],
@@ -185,7 +184,7 @@ $sysconf['template']['option'][$sysconf['template']['theme']] = [
         'dbfield' => 'classic_twitter_link',
         'label' => __('Twitter URL'),
         'type' => 'longtext',
-        'default' => 'https://twitter.com/slims_official',
+        'default' => 'https://twitter.com/',
         'width' => '100',
         'max' => 1000
     ],
@@ -201,7 +200,7 @@ $sysconf['template']['option'][$sysconf['template']['theme']] = [
         'dbfield' => 'classic_instagram_link',
         'label' => __('Instagram URL'),
         'type' => 'longtext',
-        'default' => 'https://www.instagram.com/slims.sdc',
+        'default' => 'https://www.instagram.com/',
         'width' => '100',
         'max' => 1000
     ],
@@ -209,10 +208,7 @@ $sysconf['template']['option'][$sysconf['template']['theme']] = [
         'dbfield' => 'classic_footer_about_us',
         'label' => __('Footer About Us'),
         'type' => 'longtext',
-        'default' => '<p>As a complete Library Management System, SLiMS (Senayan Library Management System) has many features that will help libraries and librarians to do their job easily and quickly. Follow <a target="_blank" href="https://slims.web.id/web/pages/about/">this link</a> to show some features provided by SLiMS.</p>',
-        'width' => '100',
-        'class' => 'ckeditor',
-        'max' => 1000
+        'default' => '<p>As a complete Library Management System, NARC Library has many features that will help libraries and librarians to do their job easily and quickly.</p>'
     ],
     'visitor_voice' => [
         'dbfield' => 'visitor_log_voice',
